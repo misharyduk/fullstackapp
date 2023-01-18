@@ -1,0 +1,14 @@
+
+
+
+server:
+  port: 5000
+  error:
+    include-message: 'always'
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://fullstackspringbootdb.cj4lkxtcczze.us-east-1.rds.amazonaws.com:5432/springreactdemo
+    username: mike
+    password: password
+    pool-size: 30
